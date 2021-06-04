@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="PayrollFirebase.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="SkyBlue" Padding="24" CornerRadius="0">
+            <Label Text="Payroll App" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Frame Padding="15">
+            <StackLayout>
+                <Label Text="Kyla Mae Vergara" HorizontalTextAlignment="Center" FontSize="22" FontAttributes="Bold" TextColor="SkyBlue"></Label>
+                <Label Text="Kyle Junell Amaquin" HorizontalTextAlignment="Center" FontSize="22" FontAttributes="Bold" TextColor="SkyBlue"></Label>
+            </StackLayout>
+        </Frame>
+        <StackLayout HorizontalOptions="CenterAndExpand" Padding="30">
+            <Button Text="ADD"  Clicked="addPage_" WidthRequest="500" HeightRequest="80" FontSize="30"></Button>
+            <Button Text="UPDATE" Clicked="updatePage_" WidthRequest="500" HeightRequest="80"  FontSize="30"></Button>
+            <Button Text="SEARCH" Clicked="searchPage_" WidthRequest="500" HeightRequest="80" FontSize="30"></Button>
+            <Button Text="DELETE" Clicked="deletePage_" WidthRequest="500" HeightRequest="80" FontSize="30"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

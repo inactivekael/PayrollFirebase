@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollFirebase.Android", "PayrollFirebase.Android\PayrollFirebase.Android.csproj", "{E99FBB8E-9797-460A-918F-E55D6166C971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollFirebase", "PayrollFirebase\PayrollFirebase.csproj", "{E0EB410C-A55D-4780-8C71-AF0DCF22BE7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E99FBB8E-9797-460A-918F-E55D6166C971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99FBB8E-9797-460A-918F-E55D6166C971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99FBB8E-9797-460A-918F-E55D6166C971}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E99FBB8E-9797-460A-918F-E55D6166C971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99FBB8E-9797-460A-918F-E55D6166C971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99FBB8E-9797-460A-918F-E55D6166C971}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E0EB410C-A55D-4780-8C71-AF0DCF22BE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EB410C-A55D-4780-8C71-AF0DCF22BE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0EB410C-A55D-4780-8C71-AF0DCF22BE7E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E0EB410C-A55D-4780-8C71-AF0DCF22BE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0EB410C-A55D-4780-8C71-AF0DCF22BE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0EB410C-A55D-4780-8C71-AF0DCF22BE7E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E44EBB33-D341-4946-9ADA-6DA8F1953942}
+	EndGlobalSection
+EndGlobal

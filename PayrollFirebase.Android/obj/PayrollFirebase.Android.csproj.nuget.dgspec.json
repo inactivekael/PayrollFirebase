@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase.Android\\PayrollFirebase.Android.csproj": {}
+  },
+  "projects": {
+    "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase.Android\\PayrollFirebase.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase.Android\\PayrollFirebase.Android.csproj",
+        "projectName": "PayrollFirebase.Android",
+        "projectPath": "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase.Android\\PayrollFirebase.Android.csproj",
+        "packagesPath": "C:\\Users\\SpicyTubig\\.nuget\\packages\\",
+        "outputPath": "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SpicyTubig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase\\PayrollFirebase.csproj": {
+                "projectPath": "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase\\PayrollFirebase.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Firebase.Database": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      }
+    },
+    "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase\\PayrollFirebase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase\\PayrollFirebase.csproj",
+        "projectName": "PayrollFirebase",
+        "projectPath": "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase\\PayrollFirebase.csproj",
+        "packagesPath": "C:\\Users\\SpicyTubig\\.nuget\\packages\\",
+        "outputPath": "X:\\Desktop\\BSIT-3B\\2ND SEMESTER\\xamarin\\PayrollFirebase\\PayrollFirebase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SpicyTubig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Firebase.Database": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200-preview.21077.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

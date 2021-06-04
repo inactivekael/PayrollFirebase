@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="PayrollFirebase.AddPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="SkyBlue" Padding="20" CornerRadius="0">
+            <Label Text="ADD" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        
+        <StackLayout Orientation="Horizontal" Padding="15">
+            <Label FontSize="20" Text="Employee Number: "></Label>
+            <Entry FontSize="20" x:Name="empnum" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"></Entry>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="15">
+            <Label FontSize="20" Text="Name: "></Label>
+            <Entry FontSize="20" x:Name="name" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"></Entry>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="15">
+            <Label FontSize="20" Text="Hours Worked: "></Label>
+            <Entry FontSize="20" x:Name="hoursw" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Placeholder="[120]"></Entry>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="15">
+            <Label FontSize="20" Text="Employment Status: "></Label>
+            <Entry FontSize="20" x:Name="empstat" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Placeholder="[R] [P] [C] [T]"></Entry>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Padding="15">
+            <Label FontSize="20" Text="Civil Status: "></Label>
+            <Entry FontSize="20" x:Name="civilstat" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Placeholder="[S] [M]"></Entry>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center">
+            <Button Text="ADD" Clicked="addClicked" WidthRequest="500" FontSize="30"></Button>
+            <Button Text="HOME" Clicked="homePage_" WidthRequest="500" FontSize="30"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

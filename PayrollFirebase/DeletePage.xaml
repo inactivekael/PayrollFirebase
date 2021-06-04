@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="PayrollFirebase.DeletePage">
+    
+    
+    <StackLayout>
+        <Frame BackgroundColor="SkyBlue" Padding="24" CornerRadius="0">
+            <Label Text="DELETE" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+ 
+        <StackLayout Orientation="Horizontal" Padding="15">
+            <Label FontSize="20" Text="Employee Number: "></Label>
+            <Entry FontSize="20" x:Name="empnum" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"></Entry>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center">
+            <Button Text="DELETE" Clicked="deleteClicked" WidthRequest="500" FontSize="30"></Button>
+            <Button Text="HOME" Clicked="homePage_"  WidthRequest="500" FontSize="30"></Button>
+        </StackLayout>
+    </StackLayout>
+    
+    
+</ContentPage>
